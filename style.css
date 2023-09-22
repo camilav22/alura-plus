@@ -9,3 +9,24 @@ body{
     background-color:var(--cor-de-fundo);
     color:var(--branco-principal);
 }
+.principal{
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+*{
+    margin: 0;
+padding: 0;
+}
+.conteiner{
+height: 100vh;
+display: grid;
+
+}
+.conteiner__botao{
+background-color: var(--botao-azul);
+border-radius: 5px;
+padding: 1em;
+color: var(--branco-principal);
+display: block;
+}
